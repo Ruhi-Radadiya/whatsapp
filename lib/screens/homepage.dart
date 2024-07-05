@@ -299,6 +299,44 @@ class _HomepageState extends State<Homepage> {
                               fontWeight: FontWeight.w400),
                         ),
                       ),
+                      Column(
+                        children: [
+                          ...myCall.map(
+                            (e) => Column(
+                              children: [
+                                ListTile(
+                                  leading: CircleAvatar(
+                                    radius: 30,
+                                    backgroundColor: Color(0xff075e55),
+                                    backgroundImage: NetworkImage(
+                                      e['image'],
+                                    ),
+                                  ),
+                                  title: Text(
+                                    e['name'],
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  subtitle: Row(
+                                    children: [
+                                      Icon(
+                                        CupertinoIcons.arrow_up_right,
+                                        color: Colors.green,
+                                      ),
+                                      Text(
+                                        e['time'],
+                                        style: TextStyle(
+                                            color: CupertinoColors.systemGrey),
+                                      ),
+                                    ],
+                                  ),
+                                  trailing:
+                                      Icon(CupertinoIcons.video_camera_solid),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      )
                     ],
                   ),
                 ),

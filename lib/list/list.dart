@@ -1,3 +1,6 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
 List myData = [
   {
     'image':
@@ -112,5 +115,57 @@ List myStatus = [
         "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
     'name': "Thomas",
     'time': "6:30 am",
+  },
+];
+List myCall = [
+  {
+    'image':
+        "https://d2az3zd39o5d63.cloudfront.net/linkedin-profile-picture-squinch.jpg",
+    'name': "Liza",
+    'time': "July 5, 10:50 am",
+    'icon': Icon(
+      CupertinoIcons.arrow_up_right,
+      color: Colors.green,
+    )
+  },
+  {
+    'image':
+        "https://st3.depositphotos.com/1049680/34975/i/450/depositphotos_349755334-stock-photo-young-handsome-man-wearing-elegant.jpg",
+    'name': "Roy",
+    'time': "July 1, 5:28 pm",
+    'icon': Icon(
+      CupertinoIcons.arrow_down_left,
+      color: Colors.red,
+    )
+  },
+  {
+    'image':
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1GyNgHPJMCrWaIxdJqv4YF8nIoWi-HHpj7rSMOqvC9tiKg9xPNyB7IFhJnducb0doO8&usqp=CAU",
+    'name': "Jerry",
+    'time': "June 30, 12:45 pm",
+    'icon': Icon(
+      CupertinoIcons.arrow_up_right,
+      color: Colors.green,
+    )
+  },
+  {
+    'image':
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyW2MAFrFnfa_bT1jSttLbmvfotJcqQyCCGg&s",
+    'name': "Jessica",
+    'time': "June 25, 10:56 am",
+    'icon': Icon(
+      CupertinoIcons.arrow_down_left,
+      color: Colors.red,
+    )
+  },
+  {
+    'image':
+        "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+    'name': "Thomas",
+    'time': "June 25, 6:30 am",
+    'icon': Icon(
+      CupertinoIcons.arrow_down_left,
+      color: Colors.red,
+    )
   },
 ];
